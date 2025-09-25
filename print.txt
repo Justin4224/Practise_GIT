@@ -1,0 +1,64 @@
+    1  eval "$(ssh-agent -s)"
+    2  ssh-add ~/.ssh
+    3  cd ~
+    4  cd .ssh
+    5  ssh-add .ssh/
+    6  cs ~
+    7  cd ~
+    8  cls
+    9  clear
+   10  ssh-keygen -t ed2559 -C "fpfx"
+   11  ssh-keygen -t ed25519 -C "fpfx"
+   12  ssh -T git@gitlab.com
+   13  md README.md
+   14  touch REACME.md
+   15  git add README.md
+   16  git README.md
+   17  git commit -m "first commit"
+   18  git remote add origin https://github.com/Justin4224/Practise_GIT.git
+   19  git push -u origin master
+   20  git commit -m "first commit"
+   21  git config --global user.email "hey@hey.com"
+   22  git config --global user.name hey
+   23  git commit -m "fitst commit"
+   24  git add README.md
+   26  git commit -m "first commit"
+   27  git push
+   28  git push --set-upstream origin master
+   30  git checkout -b A
+   31  git push
+   32  git --set-upstream origin A
+   33  git push --set-upstream origin A
+   34  git add .
+   35  git checkout -b B
+   36  git push --set-upstream origin B
+   37  git add .
+   38  git checkout A
+   39  clear
+   40  git branch
+   41  git commit -m "fommit at A branch"
+   42  git checkout B
+   43  git merge A
+   44  git pull
+   45  git push
+   46  git commit -m "commit at B branch"
+   47  git push
+   48  git branch A
+   49  git checkout A
+   50  git push
+   51  git config --global http.proxy http://127.0.0.1:7890
+   52  git config --global https.proxy https://127.0.0.1:7890
+   53  git config --global unset http.proxy and git config --global unset https.proxy
+   54  git config --global unset http.proxy
+   55  git config --global unset https.proxy
+   56  git push
+   57  git config --global -l
+   58  git history
+   59  git-help
+   60  git --help
+   61  git log
+   62  git status
+   63  git log -100
+   64  cat $HISTFILE
+   65  history
+   66  history > print.txt
