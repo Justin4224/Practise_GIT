@@ -22,11 +22,9 @@
    22  git config --global user.name hey
    23  git commit -m "fitst commit"
    24  git add README.md
-   25  git add README.md
    26  git commit -m "first commit"
    27  git push
    28  git push --set-upstream origin master
-   29  git push
    30  git checkout -b A
    31  git push
    32  git --set-upstream origin A
